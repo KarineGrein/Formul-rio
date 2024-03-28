@@ -1,0 +1,39 @@
+body {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.form_box {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.form_box title{
+   padding: 24px 32px;
+   font-size: 24px;
+   border-bottom: thin solid #ccc;
+
+}
+
+  form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+  }
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  

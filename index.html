@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- é o link da sua pagina css -->
+    
+  </head>
+  <body>
+    <div class="form_box">
+       
+         <form action="/submit_form" method="post"> <!-- O elemento "form" é o que define o formulário e define como ele se comporta. -->
+           <label for="nome">Nome:</label><br> <!-- aqui colocaremos o nome pra aparecer no formulario -->
+           <input type="text" id="nome" nome="nome" required><br> <!-- aqui o type (tipo) que é text, o id que vai ser o nome. -->
+      
+           <label for="email">Email:</label><br> <!-- aqui a mesma coisa que o nome, só que ao invez do nome, é o email. -->
+           <input type="email" id="email" nome="email" required><br> <!-- id email, pois estamos falando do email. -->
+      
+           <label for="mensagem">Mensagem:</label><br> <!-- aqui é o campo da Mensagem... -->
+           <textarea id="mensagem" nome="mensagem" rows="4" cols="50" required></textarea><br> 
+      
+           <input type="submit" value="Enviar"> <!-- Input É um campo para inserir algum texto, data, número, etc... onde o tipo "type" é o principal atributo -->
+         </form>
+     </div>
+  </body>
+</html>
+
+
